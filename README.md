@@ -1,1 +1,1 @@
-https://github.com/FullvarFront/First-version-ono-tebe-nado-
+https://github.com/FullvarFront/ono-tebe-nado-fd
