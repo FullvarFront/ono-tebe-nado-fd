@@ -36,3 +36,16 @@ img {
 button {
   font: inherit;
 }
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style: none;
+}
