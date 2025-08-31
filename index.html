@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
@@ -16,79 +16,85 @@
           <li
             class="nav__list-items nav__list-items_no-bullit header__link_active"
           >
-            главная
+            <a href="">главная</a>
           </li>
-          <li class="nav__list-items">посмотреть лоты</li>
-          <li class="nav__list-items">об аукционе</li>
+          <li class="nav__list-items"><a href="">посмотреть лоты</a></li>
+          <li class="nav__list-items"><a href="">об аукционе</a></li>
         </ul>
       </nav>
       <a href="" class="logo__header"
         ><img src="images/logo.svg" alt="logo"
       /></a>
-      <address class="address">
-        <div class="header__address">
-          <a class="number__phone" href="”tel:+99995555555">+9 999 555 5555</a>
-          <a class="email__address" href="mailto:info@sobaka.ge"
-            >info@sobaka.ge</a
-          >
-          <div class="live__address">наб. Принсенграхт 263- 265, Амстердам</div>
-        </div>
+      <address class="address address__header">
+        <a class="address__text" href="”tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address__text address__text-no-underline">
+          наб. Принсенграхт 263- 265, Амстердам
+        </p>
       </address>
     </header>
     <main>
-      <section class="cover">
-        <div class="overlay">
-          <img class="cover_img" src="images/lotus-flower.png" alt="flower" />
-          <h1 class="overlay__title">
-            <span class="aligned-text aligned-text_left">оно</span>
-            <span class="aligned-text aligned-text_center">тебе</span>
-            <span class="aligned-text aligned-text_right">надо</span>
-          </h1>
-          <div class="cover__desription">
-            <p class="cover__desription-text">
-              Аукцион вещей, в которые никто не верил
-            </p>
-            <button class="bet-botton">сделать ставку</button>
-          </div>
+      <section class="cover background__cover-img">
+        <div class="overlay"></div>
+        <h1 class="overlay__title">
+          <span class="aligned-text aligned-text_left">оно</span>
+          <span class="aligned-text aligned-text_center">тебе</span>
+          <span class="aligned-text aligned-text_right">надо</span>
+        </h1>
+        <div class="cover__desription">
+          <p class="cover__desription-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-botton">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
+          
           <li class="lots__card-list-items card__img-film">
-            <div class="overlay"></div>
-            <h3 class="lots__title">
-              Фильм режиссёра, который бросил киношколу
-            </h3>
-            <p class="lots__text">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
+            <a  class="cards__link" href="">
+              <div class="overlay"></div>
+                <h3 class="lots__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="lots__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                </p>
+            </a>
           </li>
+         
           <li class="lots__card-list-items card__img-book">
-            <div class="overlay"></div>
-            <h3 class="lots__title">
-              Книга, где описан один скучный день из жизни рекламного агента
-            </h3>
-            <p class="lots__text">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-              переходами на древнеанглийский. В ней одновременно рассказывается
-              о 16 июня 1904 года и об истории литературы, начиная с античных
-              времён. И это всё накладывается на эпическую поэму Гомера. Сколько
-              бы вы поставили на «Улисса» Джеймса Джойса?
-            </p>
+            <a href="" class="cards__link">
+              <div class="overlay"></div>
+              <h3 class="lots__title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <p class="lots__text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                переходами на древнеанглийский. В ней одновременно
+                рассказывается о 16 июня 1904 года и об истории литературы,
+                начиная с античных времён. И это всё накладывается на эпическую
+                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
+                Джойса?
+              </p>
+            </a>
           </li>
+          
           <li class="lots__card-list-items card__img-picture">
-            <div class="overlay"></div>
-            <h3 class="lots__title">
-              Картина, которую повторит даже 5-летний сын маминой подруги
-            </h3>
-            <p class="lots__text">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
-              Сколько бы вы на такое поставили, если бы не знали, что это — одна
-              из революционных работ Кандинского?
-            </p>
+            <a href="" class="cards__link">
+              <div class="overlay"></div>
+              <h3 class="lots__title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h3>
+              <p class="lots__text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                котиков... Сколько бы вы на такое поставили, если бы не знали,
+                что это — одна из революционных работ Кандинского?
+              </p>
+            </a>
           </li>
         </ul>
         <a class="lots__look-more-link" href="">посмотреть больше</a>
@@ -123,22 +129,18 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__address">
-        <a class="footer__number-phone" href="”tel:+99995555555"
-          >+9 999 555 5555</a
-        >
-        <a class="footer__email-address" href="mailto:info@sobaka.ge"
-          >info@sobaka.ge</a
-        >
-        <div class="footer__live-address">
+      <address class="address">
+        <a class="address__text" href="”tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address__text address__text-no-underline">
           наб. Принсенграхт 263- 265, Амстердам
-        </div>
+        </p>
       </address>
       <nav class="footer__nav">
         <ul class="footer__nav-list">
-          <li class="footer__nav-list-items footer__link-active">главная</li>
-          <li class="footer__nav-list-items ">посмотреть лоты</li>
-          <li class="footer__nav-list-items">об аукционе</li>
+          <li class="footer__nav-list-items footer__link-active"><a href="">главная</a></li>
+          <li class="footer__nav-list-items"><a href="">посмотреть лоты</a></li>
+          <li class="footer__nav-list-items"><a href="">об аукционе</a></li>
         </ul>
       </nav>
       <ul class="footer__social-list">
