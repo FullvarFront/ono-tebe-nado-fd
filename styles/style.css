@@ -57,7 +57,7 @@ header {
   min-height: 757px;
 }
 .background__cover-img {
-  background-image: url("/images/lotus-flower.png");
+  background-image: url("../images/lotus-flower.png");
 }
 .overlay {
   position: absolute;
@@ -169,13 +169,13 @@ header {
   line-height: 1.2;
 }
 .card__img-film {
-  background-image: url("/images/card-1.jpg");
+  background-image: url("../images/card-1.jpg");
 }
 .card__img-book {
-  background-image: url("/images/card-3.jpg");
+  background-image: url("../images/card-3.jpg");
 }
 .card__img-picture {
-  background-image: url("/images/card-2.jpg");
+  background-image: url("../images/card-2.jpg");
 }
 .lots__look-more-link {
   margin-left: 64px;
