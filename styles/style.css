@@ -10,15 +10,16 @@ header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 42px;
+  padding: 90px 50px 96px;
 }
 .nav__list {
   display: flex;
-  gap: 31px;
+  gap: 34px;
 }
 .nav__list-items {
   font-size: 18px;
   text-decoration: underline;
+  text-underline-offset: 4px;
   list-style: circle;
 }
 .nav__list-items_no-bullit {
@@ -45,7 +46,8 @@ header {
   font-size: 18px;
   text-decoration: none;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
+  line-height: 24.3px;
 }
 .address__text-no-underline {
   text-decoration: none;
@@ -65,14 +67,19 @@ header {
 }
 .overlay__title {
   position: relative;
-  padding: 165px 50px 0px 50px;
+  padding: 165px 20px 0px 50px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  line-height: 115px;
   letter-spacing: 30px;
   text-transform: uppercase;
+  line-height: 115%;
+  text-align: center;
+  font-style: Bold;
+}
+.no-letter-spacing {
+  display: flex;
 }
 .aligned-text {
   display: flex;
@@ -84,16 +91,20 @@ header {
 }
 .aligned-text_center {
   align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 .aligned-text_right {
   align-items: end;
+  justify-content: end;
+  margin-top: 20px;
 }
 .cover__desription {
   position: absolute;
   display: flex;
   justify-content: space-between;
+  margin-top: 55px;
   padding: 50px;
-  margin-top: 100px;
 }
 .cover__desription-text {
   align-content: center;
@@ -107,7 +118,7 @@ header {
   align-content: center;
   width: 256px;
   height: 51px;
-  margin-left: 100px;
+  margin-left: 103px;
   border: 1px white solid;
   color: white;
   font-weight: 500;
@@ -223,7 +234,7 @@ header {
   grid-template-columns: repeat(3,1fr);
   margin-top: 180px;
   padding-bottom: 96px;
-  padding: 0px 50px;
+  padding: 0px 50px 100px;
 }
 .footer__address {
   display: flex;
@@ -236,13 +247,13 @@ header {
   color: black;
   font-style: normal;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
 }
 .footer__email-address {
   color: black;
   font-style: normal;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
 }
 .footer__live-address {
   font-style: normal;
