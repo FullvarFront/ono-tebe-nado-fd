@@ -1,7 +1,7 @@
 /* место для вашего кода */
 body {
   max-width: 1100px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
@@ -10,7 +10,7 @@ header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 100px 50px;
+  padding: 92px 42px;
 }
 .nav__list {
   display: flex;
@@ -29,7 +29,6 @@ header {
 }
 .logo__header {
   width: 148px;
-  margin-left: 50px;
 }
 .address {
   display: flex;
@@ -66,7 +65,7 @@ header {
 }
 .overlay__title {
   position: relative;
-  padding: 165px 50px 118px 50px;
+  padding: 165px 50px 0px 50px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -93,7 +92,8 @@ header {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  margin: 50px;
+  padding: 50px;
+  margin-top: 100px;
 }
 .cover__desription-text {
   align-content: center;
@@ -101,13 +101,13 @@ header {
   font-size: 22px;
   letter-spacing: 90%;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 19px;
 }
 .bet-botton {
   align-content: center;
   width: 256px;
   height: 51px;
-  margin-left: 90px;
+  margin-left: 100px;
   border: 1px white solid;
   color: white;
   font-weight: 500;
@@ -123,7 +123,7 @@ header {
   padding-left: 24px;
 }
 .lots__heading {
-  margin-left: 64px;
+  margin-left: 40px;
 }
 .lots__card-list {
   display: grid;
@@ -178,7 +178,7 @@ header {
   background-image: url("../images/card-2.jpg");
 }
 .lots__look-more-link {
-  margin-left: 64px;
+  margin-left: 40px;
   color: black;
   font-size: 20px;
   text-decoration: underline;
@@ -189,16 +189,17 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: center;
-  margin: 120px 24px 0px;
+  padding: 155px 50px 0px;
 }
 .background__about-logo {
   display: flex;
-  justify-self: center;
+  justify-self: start;
   justify-content: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   background: black;
+  margin-left: 20px;
 }
 .about__logo {
   width: 141px;
@@ -222,6 +223,7 @@ header {
   grid-template-columns: repeat(3,1fr);
   margin-top: 180px;
   padding-bottom: 96px;
+  padding: 0px 50px;
 }
 .footer__address {
   display: flex;
@@ -256,7 +258,7 @@ header {
 }
 .footer__social-list {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   gap: 48px;
 }
 .footer__social-list-item {
